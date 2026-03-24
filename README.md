@@ -19,6 +19,8 @@ L’application permet d’appeler des fonctions C++ depuis Java et d’afficher
 ---
 
 ## 🏗️ Architecture du projet
+
+```
 app/
 └── src/
     └── main/
@@ -27,6 +29,7 @@ app/
         │   ├── lab22mobile.cpp
         │   └── CMakeLists.txt
         └── res/layout/activity_main.xml
+```
         
 ---
 
