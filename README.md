@@ -1,6 +1,6 @@
-# 📱 LAB 22 — Android JNI (Java ↔ C++)
+#  LAB 22 — Android JNI (Java ↔ C++)
 
-## 🎯 Objectif
+##  Objectif
 
 Ce TP a pour objectif d'intégrer du code natif C++ dans une application Android en utilisant JNI (Java Native Interface).
 
@@ -8,7 +8,7 @@ L’application permet d’appeler des fonctions C++ depuis Java et d’afficher
 
 ---
 
-## ⚙️ Technologies utilisées
+##  Technologies utilisées
 
 - Java (Android)
 - C++ (NDK)
@@ -18,7 +18,7 @@ L’application permet d’appeler des fonctions C++ depuis Java et d’afficher
 
 ---
 
-## 🏗️ Architecture du projet
+##  Architecture du projet
 
 ```
 app/
@@ -33,7 +33,7 @@ app/
         
 ---
 
-## 🚀 Fonctionnalités implémentées
+##  Fonctionnalités implémentées
 
 - Appel JNI depuis Java vers C++
 - Calcul du factoriel
@@ -51,7 +51,7 @@ app/
 
 ---
 
-## 🔹 Étape 1 → 8 : Mise en place
+##  Étape 1 → 8 : Mise en place
 
 - Création du projet Android avec support C++
 - Configuration Gradle + NDK
@@ -63,7 +63,7 @@ app/
 
 ---
 
-## 🔹 Étape 9 — Logs JNI
+##  Étape 9 — Logs JNI
 
 Les logs natifs sont affichés dans Logcat avec le tag :JNI_DEMO
 
@@ -81,7 +81,7 @@ Les logs natifs sont affichés dans Logcat avec le tag :JNI_DEMO
 
 ---
 
-## 🔹 Étape 10 — Tests guidés
+##  Étape 10 — Tests guidés
 
 ### Résultats obtenus :
 
@@ -100,7 +100,7 @@ Les logs natifs sont affichés dans Logcat avec le tag :JNI_DEMO
 
 ---
 
-## 🔹 Étape 11 — Debug des erreurs
+##  Étape 11 — Debug des erreurs
 
 ### ❌ UnsatisfiedLinkError
 - Mauvais nom de bibliothèque
@@ -114,7 +114,7 @@ Les logs natifs sont affichés dans Logcat avec le tag :JNI_DEMO
 
 ---
 
-## 🔹 Étape 12 — Pourquoi JNI ?
+##  Étape 12 — Pourquoi JNI ?
 
 JNI est utile pour :
 
@@ -125,7 +125,7 @@ JNI est utile pour :
 
 ---
 
-## 🔹 Étape 13 — Bonnes pratiques
+##  Étape 13 — Bonnes pratiques
 
 - Minimiser les appels JNI
 - Libérer les ressources (Release...)
@@ -134,7 +134,7 @@ JNI est utile pour :
 
 ---
 
-## 🔹 Étape 14 — Extension (optionnelle)
+##  Étape 14 — Extension (optionnelle)
 
 Exemples possibles :
 
@@ -144,7 +144,7 @@ Exemples possibles :
 
 ---
 
-## 🔹 Étape 15 — Gestion des exceptions
+##  Étape 15 — Gestion des exceptions
 
 Possibilité de lever des exceptions Java depuis C++ :
 
